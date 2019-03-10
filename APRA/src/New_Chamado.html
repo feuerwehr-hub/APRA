@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Novo Chamado</title>
+    
+    <link rel="stylesheet" href="materialize/css/materialize.min.css">
+</head>
+<body>
+    <!--CABECALHO-->
+    <nav class="red">
+        <div class="container nav-wrapper">
+            <a href="#" class="brand-logo">App</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down"></ul>
+        </div>
+    </nav>
+
+    <main class="container" style="margin: 3% auto;">
+            <form action="GET">
+                <label>Ocorrência:</label>
+                <select class="browser-default">
+                <option value="" disabled selected>Seleciona o ocorrido:</option>
+                <option value="1">Mal estar</option>
+                <option value="2">Ataque cardíaco</option>
+                <option value="3">Ferimentos</option>
+                <option value="4">Convulsão</option>
+                <option value="5">Outros</option>
+                </select>
+                <br>
+                <input type="submit" class="waves-effect waves-light btn" value="Confirmar">
+            </form>
+    </main>
+</body>
+</html>

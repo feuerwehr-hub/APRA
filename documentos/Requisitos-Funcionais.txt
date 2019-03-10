@@ -1,0 +1,8 @@
+- Sistema deve cadastrar voluntário;
+- Sistema deve gerar visualização de voluntários cadastrados;
+- Sistema deve solicitar atendimento de um voluntário autorizado;
+
+- Sistema deve apresentar imagem geolocalizada do voluntario;
+- Sistema deve calcular quanto tempo que falta para o voluntário socorrista chegar até o destino!
+
+

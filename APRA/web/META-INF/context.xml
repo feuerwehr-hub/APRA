@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/AtendimentoVoluntario">
+  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxActive="20" maxIdle="10" maxWait="-1" name="bdAtendimentoVoluntario" password="" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull" username="root"/>
+  <Resource auth="Container" driverClassName="org.postgresql.Driver" maxActive="20" maxIdle="10" maxWait="-1" name="AtendimentoVoluntario" password="" type="javax.sql.DataSource" url="jdbc:postgresql://localhost:5432/AtendimentoVoluntario" username="postgres"/>
+</Context>
